@@ -9,3 +9,15 @@ Thumbs.db
 .rbenv-version
 .rvmrc
 /vendor
+
+.bundle/
+algorithm/
+android/
+development/
+images/
+python/
+react/
+rust/
+vim/
+webserver/
+
