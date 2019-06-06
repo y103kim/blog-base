@@ -4,35 +4,37 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: Doocong's Journey
 subtitle:
-description:
-author: John Doe
+description: Log of Developer Doocong
+author: Doocong
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: ko
+destination: /home/doocong/html
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
-permalink: pretty
+url: http://doocong.com
+baseurl: /
+permalink: /:categories/:title/
 
 # Pagination
-paginate: 10
-#paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
+paginate: 1
+paginate_path: "/page:num/"
+archive:
+  paginate: 100
+  paginate_path: "/page:num/"
+category:
+  paginate: 100
+  paginate_path: "/page:num/"
+tag:
+  paginate: 100
+  paginate_path: "/page:num/"
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
+keep_files: ["problem-db"]
 
 # Separator
 #excerpt_separator: <!-- more -->
@@ -118,8 +120,8 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -380,8 +382,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: doocong
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -436,7 +438,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-109027975-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -453,7 +455,7 @@ gitalk:
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
@@ -579,7 +581,7 @@ exturl: false
 #! ---------------------------------------------------------------
 
 # Motion
-use_motion: true
+use_motion: false
 
 # Fancybox
 fancybox: true
