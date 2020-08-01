@@ -121,7 +121,7 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories/
-  about: /about/
+  problem_db: /problem-db/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -137,7 +137,7 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
+  problem_db: archive
   categories: th
   schedule: calendar
   tags: tags
