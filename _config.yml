@@ -10,7 +10,7 @@ description: Log of Developer Doocong
 author: Doocong
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
-destination: /home/doocong/html
+destination: /srv/html
 date_format: '%Y-%m-%d'
 
 # URL
